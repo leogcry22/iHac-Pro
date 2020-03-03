@@ -37,7 +37,7 @@ P.S. 本人非大神，闲暇之余慢慢摸索学习OC中，此EFI仅供满足�
 ### 不工作
 
 * [ ] 系统定位（需要无线网卡）
-* [ ] 更多未知问题？请提交至[Issues]中(https://github.com/leogcry22/iHac-Pro/issues)
+* [ ] 更多未知问题？请提交至[Issues](https://github.com/leogcry22/iHac-Pro/issues)中
 
 ### 参考
 
