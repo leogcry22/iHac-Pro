@@ -491,7 +491,7 @@
 		<key>Generic</key>
 		<dict>
 			<key>MLB</key>
-			<string>C028085004NJG361F</string>
+			<string>填写你的</string>
 			<key>ROM</key>
 			<data>gaXD/f1B</data>
 			<key>SpoofVendor</key>
@@ -501,9 +501,9 @@
 			<key>SystemProductName</key>
 			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02W90QDHX87</string>
+			<string>填写你的</string>
 			<key>SystemUUID</key>
-			<string>DFB8FC2A-3B7A-4018-8523-807DD122241E</string>
+			<string>填写你的</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
