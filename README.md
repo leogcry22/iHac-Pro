@@ -24,6 +24,26 @@ P.S. 本人非黑果大佬，闲暇之余慢慢摸索学习OC中，此EFI仅供�
 
 ![showcase](Images/showcase.jpg)
 
+![about](Images/about.png)
+
+![display](Images/display.png)
+
+![ram](Images/ram.png)
+
+![gpu1](Images/gpu1.png)
+
+![gpu2](Images/gpu2.png)
+
+![power](Images/power.png)
+
+![nvram](Images/nvram.png)
+
+![cfg](Images/cfg.png)
+
+![cpu](Images/cpu.png)
+
+![cinebensh](Images/cinebench.png)
+
 ## 硬件配置
 
 | 硬件 | 型号 | 说明 |
@@ -77,10 +97,13 @@ BIOS版本：[**`F9g`**](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-
 
 ## 注意事项
 
-**安装之前请务必使用对应工具生成你自己的三码并填入[`EFI/OC/config.plist`](https://github.com/leogcry22/iHac-Pro/blob/master/EFI/OC/config.plist)中，否则会有各种问题**
+**安装之前请务必使用对应工具生成你自己的机器信息并填入[`EFI/OC/config.plist`](https://github.com/leogcry22/iHac-Pro/blob/master/EFI/OC/config.plist)中，否则会有问题**
+
+![config](Images/config.png)
 
 ## 已知正常工作
 
+* [x] 原生NVRAM
 * [x] CPU变频
 * [x] GPU硬件加速
 * [x] 音频输入与输出
@@ -91,8 +114,7 @@ BIOS版本：[**`F9g`**](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-
 
 ## 已知/未知不工作
 
-* [ ] 原生NVRAM（WIP）
-* [ ] 系统定位、随航、隔空投送、蓝牙、WIFI（需要无线网卡）
+* [ ] 系统定位、随航、隔空投送、蓝牙、WIFI（需要无线网卡才能工作）
 * [ ] 更多未知问题？请提交至[Issues](https://github.com/leogcry22/iHac-Pro/issues)中
 
 ## 更新记录
