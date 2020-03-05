@@ -48,7 +48,7 @@ P.S. 本人非黑果大佬，闲暇之余慢慢摸索学习OC中，此EFI仅供�
 > - 显卡：目前已知RDNA架构5500XT与5700XT都支持我的这套EFI，5600XT目前待测
 > - 主板：不保证这套EFI能套用至其它厂商的其它型号板子上，也许技嘉自家的系列可以
 > - 固态硬盘：除了三星家的OEM盘PM981/PM981a有兼容问题之外，其余均可
-> - 仓库盘：以防万一，建议加装一块仓库盘用于Time Machine备份，我这里就用NAS了
+> - 仓库盘：以防万一，建议加装仓库盘用于Time Machine备份，我这里就用NAS了
 > - 无线网卡：有需要可以加装白果的免驱卡或者兼容的网卡进行配置
 > - 显示器：4K及以上分辨率的显示器观感最佳，视频输入接口建议走Display Port
 > - 其它硬件：选择自己中意的就行，不会有什么太大影响
@@ -56,6 +56,8 @@ P.S. 本人非黑果大佬，闲暇之余慢慢摸索学习OC中，此EFI仅供�
 ## SMBIOS
 
   `iMacPro1,1`
+
+  没什么说的，只有用这个无集显的CPU搭配独显才能正常硬件加速
 
 ## 开始之前
 
@@ -67,13 +69,15 @@ BIOS版本：[**`F9g`**](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-
 
 **请务必确保CFG Lock已解锁！！！**
 
-解锁方式有多种，个人这里采用的为直接修改BIOS文件并刷入主板的方式，个人认为更简单且重置BIOS后不会失效，你也可以采用其它任何方式，如：[Fixing CFG Lock](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/extras/msr-lock)
+解锁方式有多种，这里采用直接修改BIOS文件并刷入主板的方式，个人认为更简单且重置BIOS设置后不会失效，你也可以采用其它任何方式，如：[Fixing CFG Lock](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/extras/msr-lock)
 
 ## BIOS设置
 
+之前有更改过BIOS设置的，如果你自己都不清楚改过哪里了，建议先恢复一下出厂设置再继续
+
 ## 注意事项
 
-**安装前请务必使用工具生成你自己的三码并填入[`EFI/OC/config.plist`](https://github.com/leogcry22/iHac-Pro/blob/master/EFI/OC/config.plist)中**
+**安装之前请务必使用对应工具生成你自己的三码并填入[`EFI/OC/config.plist`](https://github.com/leogcry22/iHac-Pro/blob/master/EFI/OC/config.plist)中，否则会有各种问题**
 
 ## 已知正常工作
 
