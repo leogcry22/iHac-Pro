@@ -25,6 +25,8 @@ P.S. 本人非黑果大佬，闲暇之余慢慢摸索学习OC中，此EFI仅供�
 
 ![showcase](Images/showcase.jpg)
 
+![case](Images/case.jpeg)
+
 ![about](Images/about.png)
 
 ![display](Images/display.png)
@@ -114,7 +116,7 @@ BIOS版本：[**`F9g`**](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-
 
 ## 注意事项
 
-**安装之前请务必使用对应工具生成你自己的机器信息并填入[`EFI/OC/config.plist`](https://github.com/leogcry22/iHac-Pro/blob/master/EFI/OC/config.plist)中，否则会有问题**
+**安装之前请务必使用对应工具生成你自己的机器信息并填入[`EFI/OC/config.plist`](https://github.com/leogcry22/iHac-Pro/blob/master/EFI/OC/config.plist)中**
 
 ![config](Images/config.png)
 
