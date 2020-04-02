@@ -4,6 +4,9 @@
 
 P.S. 本人非黑果大佬，闲暇之余慢慢摸索学习OC中，此EFI仅供满足本人日常使用，并非所有功能均完善，OC配置文件也非100%正确，套用之前请确保已阅读下列内容并正确完成相关设置，若有问题可提交至[Issues](https://github.com/leogcry22/iHac-Pro/issues)中
 
+## 支持的macOS版本
+  `10.15.4`
+
 ## 目录
 
 - [预览](#预览)
@@ -22,8 +25,6 @@ P.S. 本人非黑果大佬，闲暇之余慢慢摸索学习OC中，此EFI仅供�
 ## 预览
 
 ![showcase](Images/showcase.jpg)
-
-![case](Images/case.jpeg)
 
 ![about](Images/about.png)
 
@@ -120,7 +121,9 @@ BIOS版本：[**`F9g`**](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-
 
 ## USB定制
 
-WIP
+![usb](Images/usb.png)
+![usb-board](Images/usb-board.png)
+![usb-case](Images/usb-case.png)
 
 ## 正常工作
 
@@ -155,3 +158,5 @@ WIP
 - [精解OpenCore](https://blog.daliansky.net/OpenCore-BootLoader.html)
 
 - [技嘉神板回归！BIOS解锁CFG Lock！！！](https://bbs.pcbeta.org/viewthread-1835794-1-1.html)
+
+- [Hackintools定制USB驱动（OpenCore）](https://selfishluck.top/2020/02/19/Hackintools%E5%AE%9A%E5%88%B6USB%E9%A9%B1%E5%8A%A8%EF%BC%88OpenCore%EF%BC%89/)
